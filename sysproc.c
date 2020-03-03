@@ -96,7 +96,7 @@ int sys_shutdown(void){
 		return 0;
 	}
 
-int sys_shutdown(void){
+int sys_reboot(void){
 		outw(0x604 0x2000);
 		return 0;
 	}
