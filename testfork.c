@@ -5,10 +5,10 @@ int main() {
     pid = fork();
     if (pid != 0)
     {
-        printf("Soy el proceso padre.");
+        printf("Soy el proceso padre.\n");
     }
     else
     {
-        printf("Soy el proceso hijo.");
+        printf("Soy el proceso hijo.\n");
     }
 }
