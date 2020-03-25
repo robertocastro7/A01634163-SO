@@ -10,6 +10,5 @@ int main(){
     }
     else{
         printf("Soy el padre.\n");
-        
     }
 }
