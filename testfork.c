@@ -9,6 +9,6 @@ int main() {
     }
     else
     {
-        printf("HIJO: Soy el proceso hijo.");
+        printf("Soy el proceso hijo.");
     }
 }
